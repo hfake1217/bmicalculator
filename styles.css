@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(
+        lightblue 70%,
+        rgb(229, 229, 169)
+    );
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(248, 248, 248);
+}
+
+h1 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.calculator {
+    border: 2px solid blanchedalmond;
+    box-shadow: 12px 12px 2px 1px rgba(169, 211, 229, 0.76);
+    height: 500px;
+    width: 400px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+input {
+    color:rgba(159, 159, 7, 0.64);
+    border-radius: 8%;
+    border: 2px solid rgba(159, 159, 7, 0.64);
+    box-shadow: 6px 6px 1px 1px rgb(229, 229, 169);
+}
+
+.height-div, .weight-div {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.bmi-result {
+    border: 2px solid rgba(169, 211, 229, 0.76);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: auto;
+    background: linear-gradient(
+        rgb(229, 229, 169),
+        lightblue 70%
+    );
+    text-align: center;
+    line-height: 150px;
+    font-size: 17px;
+}
+
+h4 {
+    margin: 0;
+}
+
+button {
+    color: rgb(248, 248, 248);
+    background-color: lightblue;
+    border:1px solid rgba(159, 159, 7, 0.64);
+}
+
+#output {
+    display: inline;
+}
